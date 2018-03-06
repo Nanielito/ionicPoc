@@ -1,9 +1,11 @@
-# Pruebas de Concepto Ionic
+[![N|Solid](http://koladas.com.ve/wp-content/uploads/2015/03/Koladas_separador.png)](http://koladas.com.ve/)
+# Pruebas de Concepto Ionic LlamaVan
 
-Para desarrollar este se readme use un editor de MarkDown online:
+Para desarrollar este readme use un editor de MarkDown online:
 https://dillinger.io/
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![N|Solid](http://koladas.com.ve/wp-content/uploads/2015/03/Koladas_separador.png)](http://koladas.com.ve/)
 
 #### Paso 1
 Como primer paso y buena practica asociar via ssh el github. Como generar el ssh key y asociarlo:
@@ -25,5 +27,9 @@ $ cd ionicPoc
 
 | Instalar | README |
 | ------ | ------ |
-| Instalar jdk 1.8 | [plugins/dropbox/README.md][PlDb] |
-| Configurar PATH | [plugins/github/README.md][PlGh] |
+| JAVA | [instalacion/java/README.md][PlDb] |
+| PATH | [instalacion/path/README.md][PlGh] |
+| Ionic pro | [instalacion/ionic/README.md][PlGh] |
+| Android Studio | [instalacion/android/README.md][PlOd] |
+| Xcode | [instalacion/xcode/README.md][PlMe] |
+| Otras dependencias | [instalacion/dependencias/README.md][PlGa] |
