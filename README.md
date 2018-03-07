@@ -23,7 +23,33 @@ $ git clone git@github.com:pitajuan/ionicPoc.git
 $ cd ionicPoc
 ```
 
-#### Paso 3 Instalacion de entorno FRONT
+#### Paso 3 Installs
+
+#### Node
+Descagar e instalar la ultima version de node
+- https://nodejs.org/es/
+
+#### Ionic cordova
+Ejecutar el siguiente comando para la instalacion
+para la instalacion te puedes guiar del siguiente link
+- https://ionicframework.com/getting-started/
+
+```sh
+npm install -g cordova ionic
+```
+
+#### Crear un proyecto dentro del repocon tu nombre
+
+```sh
+$ cd ~/.turuta/projectLlamaVan/ionicPoc
+$ ionic start nombreApellido blank
+```
+preguntas y respuestas durante la instalacion:
+
+- Would you like to integrate your new app with Cordova to target native iOS and Android? (y/N) y
+
+- Install the free Ionic Pro SDK and connect your app? (Y/n) N
+
 
 | Instalar | README |
 | ------ | ------ |
