@@ -1,11 +1,8 @@
 [![N|Solid](http://koladas.com.ve/wp-content/uploads/2015/03/Koladas_separador.png)](http://koladas.com.ve/)
-# Pruebas de Concepto Ionic LlamaVan
+# Ionic LlamaVan POC
 
 Para desarrollar este readme use un editor de MarkDown online:
 https://dillinger.io/
-
-
-[![N|Solid](http://koladas.com.ve/wp-content/uploads/2015/03/Koladas_separador.png)](http://koladas.com.ve/)
 
 #### Paso 1
 Como primer paso y buena practica asociar via ssh el github. Como generar el ssh key y asociarlo:
@@ -41,7 +38,7 @@ Ejecutar el comando de instalaccion
 npm install -g cordova ionic
 ```
 
-#### Crear un proyecto dentro del repo con tu nombre y apellido
+#### Crear proyecto 
 
 La idea es tener varios proyecticos en este repo para ir armando las pruebas
 
