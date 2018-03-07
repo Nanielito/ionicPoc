@@ -118,6 +118,7 @@ $ brew install gradle
 
 ##### alias de comandos ionic
 
+```sh
 alias io="ionic"
 alias cdv="cordova"
 alias ioc="ionic cordova"
@@ -129,3 +130,4 @@ alias ioan="ionic cordova run android --device"
 alias cpl="cordova plugin list"
 alias ioap="ionic cordova plugin add"
 alias iormp="ionic cordova plugin rm"
+```
