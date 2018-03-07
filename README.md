@@ -29,16 +29,21 @@ $ cd ionicPoc
 Descagar e instalar la ultima version de node
 - https://nodejs.org/es/
 
-#### Ionic cordova
-Ejecutar el siguiente comando para la instalacion
-para la instalacion te puedes guiar del siguiente link
+#### Ionic cuenta
+Crear una cuenta para poder hacer uso del framework
+https://dashboard.ionicjs.com/signup
+
+#### Ionic install
+Ejecutar el comando de instalaccion 
 - https://ionicframework.com/getting-started/
 
 ```sh
 npm install -g cordova ionic
 ```
 
-#### Crear un proyecto dentro del repocon tu nombre
+#### Crear un proyecto dentro del repo con tu nombre y apellido
+
+La idea es tener varios proyecticos en este repo para ir armando las pruebas
 
 ```sh
 $ cd ~/.turuta/projectLlamaVan/ionicPoc
@@ -50,6 +55,7 @@ preguntas y respuestas durante la instalacion:
 
 - Install the free Ionic Pro SDK and connect your app? (Y/n) N
 
+#### Otras instalaciones (en construcción)
 
 | Instalar | README |
 | ------ | ------ |
