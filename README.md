@@ -22,6 +22,11 @@ $ cd ionicPoc
 
 #### Paso 3 Installs
 
+### brew
+```sh
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 #### Node
 Descagar e instalar la ultima version de node
 - https://nodejs.org/es/
@@ -35,7 +40,7 @@ Ejecutar el comando de instalaccion
 - https://ionicframework.com/getting-started/
 
 ```sh
-npm install -g cordova ionic
+$ npm install -g cordova ionic
 ```
 
 #### Crear proyecto 
@@ -72,14 +77,29 @@ $ ionic cordova run android
 
 ```
  
- Listado de posibles errores:
+#### Listado de posibles errores:
 
 
  -CordovaError: Could not find an installed version of Gradle either in Android Studio,
 or on your system to install the gradle wrapper. Please include gradle 
-in your path, or install Android Studio ( Configurar el PATH Ver tuto del PATH)
+in your path, or install Android Studio ( instala gradel pe won)
+
+- https://gradle.org/install/
+
+```sh
+$ brew install gradle
+
+```
+
+> You have not accepted the license agreements of the following SDK components:
+  [Android SDK Platform 26, Android SDK Build-Tools 26.0.2].
+  Before building your project, you need to accept the license agreements and complete the installation of the missing components using the Android Studio SDK Manager.
+  Alternatively, to learn how to transfer the license agreements from one workstation to another, go to http://d.android.com/r/studio-ui/export-licenses.html (abre tu android studio y descarga la ultima version del sdk 6)
 
 
+#### Link para instalar entorno android
+
+- https://cordova.apache.org/docs/en/7.x/guide/platforms/android/
 
 
 #### Otras instalaciones (en construcción)
