@@ -131,3 +131,6 @@ alias cpl="cordova plugin list"
 alias ioap="ionic cordova plugin add"
 alias iormp="ionic cordova plugin rm"
 ```
+
+#### integracion de SLACK con GitHub
+- https://www.youtube.com/watch?v=BScZHr-psxI
