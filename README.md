@@ -52,6 +52,36 @@ preguntas y respuestas durante la instalacion:
 
 - Install the free Ionic Pro SDK and connect your app? (Y/n) N
 
+#### Instalacion de plataforma android 
+
+Se de correr el siguiente comando para la plataforma android
+
+En tal caso no se tenga el SKD Manager ver el tutorial de Instalacion de Android Studio
+
+```sh
+$ ionic cordova platform add android@6.4.0
+
+```
+
+#### build y deploy de la app en el celular android
+
+Conectar el cel y correr el siguiente comando
+
+```sh
+$ ionic cordova run android
+
+```
+ 
+ Listado de posibles errores:
+
+
+ -CordovaError: Could not find an installed version of Gradle either in Android Studio,
+or on your system to install the gradle wrapper. Please include gradle 
+in your path, or install Android Studio ( Configurar el PATH Ver tuto del PATH)
+
+
+
+
 #### Otras instalaciones (en construcción)
 
 | Instalar | README |
@@ -60,5 +90,22 @@ preguntas y respuestas durante la instalacion:
 | PATH | [instalacion/path/README.md][PlGh] |
 | Ionic pro | [instalacion/ionic/README.md][PlGh] |
 | Android Studio | [instalacion/android/README.md][PlOd] |
+| SDK Manager | [instalacion/android/README.md][PlOd] |
+| Gradel | [instalacion/android/README.md][PlOd] |
 | Xcode | [instalacion/xcode/README.md][PlMe] |
 | Otras dependencias | [instalacion/dependencias/README.md][PlGa] |
+
+
+##### alias de comandos ionic
+
+alias io="ionic"
+alias cdv="cordova"
+alias ioc="ionic cordova"
+alias iog="ionic generate"
+alias iorm="rm -rf node_modules/ && rm -rf plugins/ && rm -rf www/ && rm -rf platforms/ && rm -rf .sourcemaps/"
+alias ioi="npm i && ionic cordova build"
+alias ior="ionic cordova run"
+alias ioan="ionic cordova run android --device"
+alias cpl="cordova plugin list"
+alias ioap="ionic cordova plugin add"
+alias iormp="ionic cordova plugin rm"
